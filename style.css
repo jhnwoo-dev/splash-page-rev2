@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+}
+
+#navbar {
+    text-decoration: none;
+    background: #788475;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+div a {
+    padding: 0 1px;
+    margin: 0 4px;
+    text-decoration: 2px underline solid black;
+    color: black;
+}
+
+h1 {
+    margin: 20px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+
+#content {
+    text-align: center;
+}
+
+#contact-me {
+    text-align: center;
+    background: #917C78;
+    padding: 20px 0;
+}
+
+#contact-button {
+    background: #788475;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+footer {
+    background: #788475;
+    text-align: center;
+    color: black;
+}
